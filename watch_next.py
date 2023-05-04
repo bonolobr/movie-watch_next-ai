@@ -64,7 +64,9 @@ def movie_suggestion(movie_watched):
 #<------- Program ------->
 
 # Define variable that is the description that is associated with the movie watched, named Planet Hulk
-Planet_Hulk_desc = 'Will he save their world or destroy it? When the Hulk becomes too dangerous for the Earth, the Illuminati trick Hulk into a shuttle and launch him into space to a planet where the Hulk can live in peace. Unfortunately, Hulk land on the planet Sakaar where he is sold into slavery and trained as a gladiator.'
+Planet_Hulk_desc = """Will he save their world or destroy it? When the Hulk becomes too dangerous for the Earth,
+                    the Illuminati trick Hulk into a shuttle and launch him into space to a planet where the Hulk can live in peace. 
+                    Unfortunately, Hulk land on the planet Sakaar where he is sold into slavery and trained as a gladiator."""
 
 suggested_similar_movie_title_watch_next = movie_suggestion(Planet_Hulk_desc)
 
